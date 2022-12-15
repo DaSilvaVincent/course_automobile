@@ -1,0 +1,87 @@
+#reservervation {
+    display: flex;
+    flex-direction: column;   
+}
+
+#forfaits {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.forfait{
+    width: calc(33.33% - 4px);
+    margin: 2.5% 0 2.5% 0;
+}
+
+.forfait:nth-child(3n), .forfait:nth-child(2), .forfait:nth-child(5) {
+    border-left: 2px solid #BDBDBD;
+}  
+
+.forfait p, .forfait h2, #reservervation h1{
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.f-incorrect {
+    color: #DDDDDD;
+}
+
+ul {
+    font-family: 'Roboto';
+    list-style-type:none;
+}
+
+.f-check{
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.f-description {
+    float: right;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-right: 5%;
+}
+
+#date {
+    display: flex;
+    justify-content: space-around;
+}
+
+#date div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vosInfos{
+    font-family: 'Roboto';
+    margin-left: 1%;
+}
+
+#autresInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#autresInfos button{
+    margin: 2%;
+}
+
+#autresInfos div{
+    width: 20%;
+    padding: 5px 4% 5px 4%;
+    border-left: 2px solid #BDBDBD;
+    border-right: 2px solid #BDBDBD;
+}
+
+#autresInfos div input {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80%;
+}

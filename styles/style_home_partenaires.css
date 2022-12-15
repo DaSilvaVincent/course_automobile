@@ -1,0 +1,34 @@
+#titreSponsors{
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    margin-left: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#cadres {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 3%;
+}
+
+.cadre {
+    border: #BDBDBD solid 2px;
+    width: calc(40% - 4px);
+    margin: 2.5% 5% 2.5% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 5px 5px 5px #e9e9e9, -2px -2px 5px #e9e9e9;
+}
+
+.cadre img {
+    width: 50%;
+    height: fit-content;
+}
+
+.cadre p {
+    width: 50%;
+    padding: 10px;
+    font-family: 'Roboto';
+}

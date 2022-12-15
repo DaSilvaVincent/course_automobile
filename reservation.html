@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style_footer.css" />
+    <link rel="stylesheet" href="styles/style_header.css" />
+    <link rel="stylesheet" href="styles/style_reservation.css">
+    <link rel="stylesheet" href="styles/style_home_body.css">
+    <link rel="icon" type="image/png" href="images/Logo/Logo-Favicon.png" />
+    <!-- Icons réseaux -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " />
+    <title>Cultural Pop Revival</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="row_header">
+        <a class="column_header" href="index.html">Accueil</a>
+        <a class="column_header" href="programme.html">Programme</a>
+        <a class="column_header" href="musee.html">Musée</a>
+        <a class="column_header" href="index.html">
+          <img class="logo_header" src="images/Logo/Logo.png" alt="logo" />
+        </a>
+        <a class="column_header" href="actualite.html">Actualité</a>
+        <a class="active_header" href="reservation.html">Réservation</a>
+        <a class="column_header" href="quiSommesNous.html">Présentation</a>
+      </div>
+    </header>
+
+    <form method="post" id="reservervation">
+      <h1>Nos forfaits</h1>
+      <div id="forfaits">
+        <div class="forfait">
+          <h2>Forfait standard</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-incorrect">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-incorrect">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-incorrect">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-incorrect">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 9,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        <div class="forfait">
+          <h2>Forfait musée</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-correct">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-incorrect">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-incorrect">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-incorrect">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 14,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        <div class="forfait">
+          <h2>Forfait repas</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-correct">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-incorrect">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-correct">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-incorrect">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 19,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        <div class="forfait">
+          <h2>Forfait hébergement inclus</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-correct">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-incorrect">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-incorrect">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-correct">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 44,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        <div class="forfait">
+          <h2>Forfait course incluse</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-correct">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-correct">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-incorrect">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-incorrect">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 199,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        <div class="forfait">
+          <h2>Forfait tout compris</h2>
+          <ul>
+            <li class="f-correct">Entrée<span class="f-description"> L'entrée à l'évènement pendant tout le week-end</span></li>
+            <li class="f-correct">Musée<span class="f-description"> Accès à notre musée sur place</span></li>
+            <li class="f-correct">Course<span class="f-description"> Vous aurez l'occasion de participer à une course</span></li>
+            <li class="f-correct">Repas<span class="f-description"> Un repas le midi est inclus</span></li>
+            <li class="f-correct">Hébergement<span class="f-description"> Une nuit avec le petit déjeuner offert</span></li>
+          </ul>
+          <p>Tarif: 229,99€</p>
+          <input class="f-check" type="radio" name="forfait" required>
+        </div>
+        
+      </div>
+      <h1>Vos informations personnelles</h1>
+      <div id="vosInfos">
+        <h2>Quand souhaitez-vous nous rejoindre ? Plus d'information <a href="programme.html">ici</a>.</h2>
+        <div id="date">
+          <div>
+            <label for="we-1">Samedi 19 février 2022 - Dimanche 20 février 2022</label>
+            <input class="week-end" type="radio" id="we-1" name="week-end" required>
+          </div>
+          <div>
+            <label for="we-2">Samedi 26 février 2022 - Dimanche 27 février 2022</label>
+            <input class="week-end" type="radio" id="we-2" name="week-end" required>
+          </div>
+          <div>
+            <label for="we-3">Samedi 5 mars 2022 - Dimanche 6 mars 2022</label>
+            <input class="week-end" type="radio" id="we-3" name="week-end" required>
+          </div>
+        </div>
+        
+        <div id="autresInfos">
+          <h2>Autres informations</h2>
+          <div>
+            <label for="r-nom">Votre nom</label>
+            <input type="text" name="r-nom" id="r-nom" placeholder="Nom Prénom" required>
+          </div>
+          <div>
+            <label for="r-tel">N° de téléphone</label>
+            <input type="tel" name="r-tel" id="r-tel" placeholder="01 02 03 04 05" required>
+          </div>
+          <div>
+            <label for="r-email">E-mail</label>
+            <input type="email" name="r-email" id="r-email" placeholder="marty-mcFly@example.fr" pattern="+@+" required>
+          </div>
+          <button type="submit">Valider la reservation</button>
+          <p>Le payement se fera sur place.</p>
+        </div>
+      </div>
+    </form>
+
+    <footer class="footer">
+      <div class="row_footer">
+        <div class="column_footer">
+          <u class="trait_footer">Services client</u>
+          <p><a class="text_footer" href="index.html">Accueil</a></p>
+          <p><a class="text_footer" href="programme.html">Programme</a></p>
+          <p><a class="text_footer" href="musee.html">Musée</a></p>
+          <p><a class="text_footer" href="actualite.html">Actualité</a></p>
+          <p><a class="text_footer" href="reservation.html">Réservation</a></p>
+          <p><a class="text_footer" href="quiSommesNous.html">Présentation</a></p>
+        </div>
+        <div class="column_footer">
+          <u class="trait_footer">Légales</u>
+          <p>
+            <a class="text_footer" href="donnees.html">Données personnelles</a>
+          </p>
+          <p><a class="text_footer" href="CGU.html">CGU</a></p>
+          <p><a class="text_footer" href="CGV.html">CGV</a></p>
+          <p><a class="text_footer" href="mention.html">Mentions Légales</a></p>
+          <br>
+          <p><span class="text_footer_2">© 2021-2022, CulturalPopRevival.com Inc.</span></p>
+        </div>
+        <div class="flex-container_footer">
+          <div class="flex-item_footer">
+            <u class="trait_footer">Réseaux sociaux</u>
+            <p>
+              <a href="https://fr-fr.facebook.com" class="fa fa-facebook"></a>
+              <a href="https://twitter.com" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+              <a href="https://www.pinterest.fr" class="fa fa-pinterest"></a>
+            </p>
+          </div>
+          <div class="flex-item_footer">
+            <u class="trait_footer">Newsletter</u>
+            <form method="post" id="form" name="form">
+              <div>
+                <input
+                  type="submit"
+                  value="OK"
+                  name="subscribe"
+                  id="subscribe"
+                  class="insert_footer"
+                />
+              </div>
+              <div>
+                <label for="email">
+                  Entrez votre adresse e-mail pour recevoir la newsletter
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  id="email"
+                  aria-required="true"
+                  class="insert_footer"
+                />
+              </div>
+            </form>
+            <p><a class="text_footer" href="contact.html">Cliquez ici pour nous contacter</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

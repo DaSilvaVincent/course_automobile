@@ -1,0 +1,39 @@
+.header {
+   background-color: #740226;
+   padding: 30px;
+   text-align: center;
+   font-size: 35px;
+   font-family: 'Oswald';
+}
+
+.row_header {
+   display: flex;
+}
+
+.column_header {
+   flex: 1;
+   padding: 10px;
+   margin-top: 10px;
+   height: 80px;
+   align-items: center;
+   text-decoration: none;
+   color: #fef6fcbd
+}
+
+.logo_header {
+   margin-top: -80px;
+}
+
+a:hover {
+   color: #00132b;
+}
+
+a.active_header {
+   flex: 1;
+   padding: 10px;
+   margin-top: 10px;
+   height: 80px;
+   align-items: center;
+   text-decoration: none;
+   color: #00132b;
+}

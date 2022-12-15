@@ -1,0 +1,74 @@
+/* Images du slider */
+
+#slider {
+    width: 75vw;
+    overflow: hidden;
+    margin: 3% auto 5% auto;
+}
+
+#slides {
+    width: calc(75vw * 4); /* multiplier par le nombre d'image*/
+    animation: glisse 20s infinite;
+}
+
+.slide {
+    float: left;
+}
+
+.slide img {
+    max-width: 75vw;
+}
+
+/* Texte du slider */
+
+#slideContent {
+    position: absolute;
+    width: 75vw;
+    color: white;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+#slideContent h1 {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 4rem;
+    font-family: 'Oswald';
+}
+
+#slideContent p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+
+/* Animation du slider */
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    12% { /* Permet d'accélérer la transition entre les slides */
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(calc(75vw * -1));
+    }
+    37% {
+        transform: translateX(calc(75vw * -1));
+    }
+    50% {
+        transform: translateX(calc(75vw * -2));
+    }
+    62% {
+        transform: translateX(calc(75vw * -2));
+    }
+    75% {
+        transform: translateX(calc(75vw * -3));
+    }
+    89% {
+        transform: translateX(calc(75vw * -3));
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

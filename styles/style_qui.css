@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+#membres {
+    display: flex;
+}
+
+.membre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membre figcaption {
+    margin-top: 2%;
+    font-family: "Roboto";
+}
+
+.membre img {
+    width: 50%;
+}
+
+#entreprise {
+    display: flex;
+}
+
+#entreprise img {
+    width: 30%;
+}
+
+#entreprise figcaption {
+    font-family: "Roboto";
+    margin-top: 2%;
+    margin-left: 2%;
+}

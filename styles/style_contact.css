@@ -1,0 +1,31 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h1 {
+    font-family: "Oswald";
+}
+
+#contact label {
+    font-family: "Roboto";
+}
+
+#contact input {
+    width: 50vw;
+}
+
+#contact div {
+    margin: 5px;
+}
+
+#contact button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#c-message {
+    resize: vertical;
+    width: 50vw;
+}
